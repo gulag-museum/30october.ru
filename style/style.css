@@ -1,0 +1,87 @@
+* {margin: 0; padding: 0; color: #fff;}
+@font-face {font-family: Archive; src: url('archive.otf'); }
+body {font: 15px Arial; width: 100%; background: #000 url('bg.jpg') no-repeat center top fixed;}
+A {color: #ccc; text-decoration: none;}
+A:hover {color: #fff;}
+P {margin: 0 0 18px;}
+IMG {border: none;}
+INPUT {vertical-align: middle;}
+B {font: 20px Archive;}
+#wrapper {width: 1000px; margin: 0 auto; min-height: 100%;}
+
+/* Заголовок */
+#header {height: 130px; margin-left: 20px;}
+
+/* Центральный блок */
+#middle {
+	padding-left: 250px;
+	padding-right: 200px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#container {width: 100%; float: left; overflow: hidden; margin-right: -100%;}
+#content {padding-top: 20px;}
+
+#content P.right {text-align: right; font: italic 18px Times;}
+#content A {text-decoration: underline; color: #FFF;}
+#content A:hover {text-decoration: none; color: #CCC;}
+#content_partners {padding-left: 250px; padding-top: 20px;}	
+#content_partners LI {list-style-type: none; margin-top: 20px;}
+
+/* Карта */
+#content_map {padding-left: 250px; padding-top: 20px;}	
+#content_map * {color: #000;}
+#content_map B {color: #465845; font: 16px Archive;}
+#content_map I {color: #999; font: normal 14px Arial;}
+#content_map SPAN {color: red; font: normal 14px Arial;}
+.ymaps-b-balloon__content-body {font: normal 14px Arial;}
+.ymaps-b-balloon__content-body A {font: normal 14px Arial; text-decoration: underline;}
+.ymaps-b-balloon__content-body A:hover {font: normal 14px Arial; text-decoration: none; }
+
+/* Левый блок */
+#left_top {
+	float: left; 
+	width: 250px; 
+	height: 75px; 
+	position: relative; 
+	left: -250px; 
+	font: 16px/20px Archive; 
+	background: url('left_top.png') no-repeat left top;
+}
+#left_top P {padding-top: 10px; padding-left: 20px;}
+#bottom_project {width: 595px; z-index: 1000;}
+#bottom_project LI {list-style-type: none; padding-top: 20px; display: inline; padding-right: 20px;}	
+#left_map {float: left; padding-top: 18px; width: 220px; position: absolute; padding-left: 20px;}
+#left_map B {color: #F75; font: 18px/20px Archive;}
+#left_map LI {padding: 10px 0px; font: 14px Arial; list-style-type: none;}
+#left_map LI:hover {color: #CCC; cursor: pointer;}
+#bottom_map {float: left; margin-top: 400px; width: 250px; height: 142px; position: absolute; background: url('http://localhost:8080/style/promo.png') no-repeat left top;}
+#bottom_map LI {list-style-type: none; padding-left: 65px; padding-bottom: 20px; list-style-type: none; font: 12px Arial;}	
+#bottom_map LI:last-child {padding-left: 58px;}
+
+/* Правый блок */
+#right_top {float: right; margin-right: -200px; width: 200px; height: 75px; position: relative;}
+#right_top UL {padding-top: 20px;}
+#right_top LI {list-style-type: none; display: inline; padding-left: 20px;}
+#right_map {padding-top: 38px; width: 200px; margin-right: -20px; float: right;}
+#right_map B {color: #F75; font: 18px/20px Archive;}
+#right_map P {margin: 10px 0px 20px 0px; font: 14px Arial; line-height: 1.1;}
+#right_map P:hover {color: #CCC; cursor: pointer;}
+
+/* Меню */
+#menu {width: 555px; height: 75px; background: url('menu.png') no-repeat center; font: 16px Archive; text-align: center;}
+#menu UL {padding-top: 30px;}
+#menu LI {list-style-type: none; display: inline; padding: 0 10px;}
+
+/* Спонсоры на всех страницах (на каждой странице персональный отступ сверху прописан в тегах) */
+#sponsor LI {list-style-type: none; margin-bottom: 10px;}
+
+* {outline: 0px red solid;}
+
