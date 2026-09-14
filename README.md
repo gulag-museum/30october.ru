@@ -1,45 +1,55 @@
-# October 30 | Static Archive 
-# 30 октября | Статический архив
+<img src=".github/cover.jpg" alt="30 октября" width="100%">
 
-This repository contains a permanent static mirror of the original version of `30october.ru`.
-В данном репозитории хранится вечный статический снимок (зеркало) оригинальной версии сайта `30october.ru`.
+# 30 октября
 
----
+*October 30*
 
-## 🏛 Project Context / Контекст проекта
+Сайт ко Дню памяти жертв политических репрессий: список 13 448 человек, расстрелянных в Москве в 1937–1938 годах, и карта памятных мероприятий по всей России.
 
-**EN:** "October 30" is a project dedicated to the Remembrance Day of the Victims of Political Repressions. This archive preserves the earlier version of the site, which focused on naming the victims and coordinating commemorative events across Russia. Developed and maintained by the **GULAG History Museum**.
+**[Открыть архив →](https://30october.gulagmemory.org)** · [Все сохранённые сайты](https://gulagmemory.org)
 
-**RU:** «30 октября» — проект, посвященный Дню памяти жертв политических репрессий. Этот архив сохраняет старую версию сайта, целью которой было поименное называние жертв и координация памятных мероприятий по всей России. Разработан и поддерживался **Государственным музеем истории ГУЛАГа** (ГМИГ).
+| | |
+|:--|:--|
+| **Тип** | Мемориальный проект |
+| **Годы** | до ноября 2024 |
+| **Исходный адрес** | `30october.ru` |
+| **Адрес архива** | [30october.gulagmemory.org](https://30october.gulagmemory.org) |
+| **Снимок сделан** | февраль 2026 · `httrack` |
 
-* **Official Museum Website / Сайт ГМИГ:** [https://gmig.ru](https://gmig.ru)
-* **Original URL / Исходный адрес:** [http://30october.ru](http://30october.ru)
-* **Archive Date / Дата архивации:** Февраль 2026
+## О проекте
 
----
+> Хотелось бы всех поимённо назвать,
+> Да отняли список, и негде узнать.
+>
+> — Анна Ахматова, «Реквием»
 
-## 📜 About the Project / О проекте
+Проект напоминал о Дне памяти жертв политических репрессий и собирал в одном месте информацию о мероприятиях 30 октября в разных регионах России. Главная страница — поимённый список 13 448 человек, расстрелянных в Москве в 1937–1938 годах; список предоставило общество «Мемориал».
 
-**EN:** *“I’d like to recall them all by name, / But they’ve taken the list and I don’t know where to look.” (A. Akhmatova).* The "October 30" project serves as a reminder of the tragic pages of Soviet history. Its primary goal is to name at least a fraction of the millions who suffered from Stalinist repressions. The main page features a list of 13,448 individuals executed in Moscow between 1937–1938 (data provided by Memorial International). 
+Отдельная страница рассказывает историю даты: День политзаключённого придумали в 1974 году узники мордовских лагерей Кронид Любарский и Алексей Мурженко — как день голодовок и открытых заявлений. В 1991 году 30 октября стало официальным Днём памяти жертв политических репрессий.
 
-**RU:** *«Хотелось бы всех поименно назвать, / Да отняли список, и негде узнать» (А. Ахматова).*
-Проект «30 октября» — это напоминание о трагических страницах истории нашей страны. Его главная цель — назвать поименно хотя бы часть из миллионов людей, пострадавших от сталинских репрессий. На первой странице представлен список из 13 448 человек, расстрелянных в Москве в 1937–1938 гг. (список предоставлен Международным обществом «Мемориал»).
+## Что сохранено
 
----
+- полный список имён на главной странице;
+- страницы «О проекте», «О 30 октября», «Партнёры»;
+- карта мероприятий.
 
-## 🛠 Technical Details / Технические детали
+## Что не работает
 
-**EN:** This archive is a static HTML snapshot generated via `httrack`. 
-**RU:** Этот архив представляет собой статический снимок HTML, созданный с помощью `httrack`.
-
-* **Functionality:** All internal links and name lists are preserved. Interactivity, search, and map features may be limited.
-* **Функциональность:** Все внутренние ссылки и списки имен сохранены. Интерактивные функции, поиск и карты могут быть ограничены.
-
----
-
-## ⚖️ Disclaimer / Правовая информация
-This archive is maintained for historical and educational purposes. All rights to the original content belong to the GULAG History Museum.
-Этот архив поддерживается в исторических и образовательных целях. Все права на оригинальный контент принадлежат Государственному музею истории ГУЛАГа.
+- карта мероприятий зависит от Яндекс.Карт и может не загружаться.
 
 ---
-*Preserved by gmig*
+
+Репозиторий входит в [реестр сохранённых сайтов Музея истории ГУЛАГа](https://gulagmemory.org) — некоммерческий архив цифрового наследия, созданный в исследовательских и образовательных целях. Права на тексты, фотографии, видео и другие материалы принадлежат их авторам и правообладателям.
+
+<details>
+<summary><b>English</b></summary>
+
+### October 30
+
+Website for the Day of Remembrance of the Victims of Political Repression (October 30): the names of 13,448 people shot in Moscow in 1937–1938 (list provided by Memorial), the history of the date, and a map of commemorative events across Russia.
+
+**Type:** Memorial project · **Original address:** `30october.ru` · **Archive:** [30october.gulagmemory.org](https://30october.gulagmemory.org)
+
+Part of the [registry of preserved GULAG History Museum websites](https://gulagmemory.org) — a non-commercial digital heritage archive for research and education. All texts, photographs, video and other materials remain the property of their authors and rights holders.
+
+</details>
